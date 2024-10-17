@@ -30,8 +30,8 @@
 ## 2. Installing (Open the JSONFinder root directory)
 
 ```bash
-npm install
+npm i finder-json
 ```
 
 ## 3. Running
-
+TODO:
