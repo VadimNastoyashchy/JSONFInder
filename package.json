@@ -1,7 +1,7 @@
 {
   "name": "json-finder",
   "productName": "JSONFinder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast, easy and reliable JSON Finder.",
   "type": "module",
   "bin": {
