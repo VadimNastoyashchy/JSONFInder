@@ -1,7 +1,7 @@
 {
-  "name": "json-finder",
+  "name": "finder-json",
   "productName": "JSONFinder",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Fast, easy and reliable JSON Finder.",
   "type": "module",
   "bin": {
@@ -20,7 +20,6 @@
   "keywords": [
     "JSON",
     "JSONFinder",
-    "split",
     "Application"
   ],
   "author": "Vadym Nastoiashchyi",
