@@ -4,15 +4,12 @@
   "version": "1.0.1",
   "description": "Fast, easy and reliable JSON Finder.",
   "type": "module",
-  "bin": {
-    "json-finder": "src/run.mjs"
-  },
   "exports": {
     ".": "./src/index.mjs"
   },
   "types": "./src/index.d.ts",
   "scripts": {
-    "test": "echo \"Test running\"",
+    "test": "npx real-test-js",
     "lint": "eslint \"**/*.{js,mjs}\" --ignore-pattern node_modules/",
     "prettier": "prettier . --check",
     "fix-formatting": "npx prettier --write ."
@@ -38,6 +35,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.1",
     "eslint-plugin-promise": "^6.1.1",
-    "prettier": "3.0.3"
+    "prettier": "3.0.3",
+    "real-test-js": "^1.9.3"
   }
 }
