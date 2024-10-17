@@ -1,0 +1,44 @@
+{
+  "name": "json-finder",
+  "productName": "JSONFinder",
+  "version": "1.0.0",
+  "description": "Fast, easy and reliable JSON Finder.",
+  "type": "module",
+  "bin": {
+    "json-finder": "src/run.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Test running\"",
+    "lint": "eslint \"**/*.{js,mjs}\" --ignore-pattern node_modules/",
+    "prettier": "prettier . --check",
+    "fix-formatting": "npx prettier --write ."
+  },
+  "keywords": [
+    "JSON",
+    "JSONFinder",
+    "split",
+    "Application"
+  ],
+  "author": "Vadym Nastoiashchyi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimNastoyashchy/JSONFinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VadimNastoyashchy/JSONFinder/issues"
+  },
+  "homepage": "https://github.com/VadimNastoyashchy/JSONFinder#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "3.0.3"
+  }
+}
